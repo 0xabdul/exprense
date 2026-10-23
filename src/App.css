@@ -1,0 +1,497 @@
+.counter{
+  font-size:1.3rem;
+  border :1px solid black;
+  padding:3.4rem;
+  background-color:rgb(145, 76, 235);
+  border:0;
+  display:flex;
+  gap:3rem;
+  justify-content:space-evenly;
+  align-items: center;
+  box-shadow: 1px 1px 50px rgb(154, 154, 154);
+}
+h1{
+  color:white;
+}
+.addbtn{
+  padding:1rem;
+  border:0;
+  border-radius:3px;
+  font-size:1rem;
+  box-shadow:0px 1px 30px rgb(47, 47, 47);
+  padding-right:3rem;
+  padding-left:3rem;
+  background-color: rgb(218, 191, 243);
+}
+.income{
+  border:1.5px solid rgb(12, 235, 12);
+  padding:2rem;
+  border-left-width:0.5rem;
+  border-radius:5px;
+   height:7rem;
+  width:10rem;
+  background-color: white;
+  box-shadow: 1px 1px 30px rgb(195, 195, 196);
+  line-height:3rem;
+}
+.income:hover{
+  transition-duration:300ms;
+  transform: scale(1.1);
+}
+.expense{
+  border:1.5px solid red;
+  padding:2rem;
+  border-left-width:0.5rem;
+  border-radius:5px;
+  height:7rem;
+  width:10rem;
+   background-color: white;
+  box-shadow: 1px 1px 30px rgb(195, 195, 196);
+   line-height:3rem;
+}
+.expense:hover{
+  transition-duration:300ms;
+  transform: scale(1.1);
+}
+.balance{
+  border:1px solid rgb(187, 10, 240);
+  padding:2rem;
+  border-left-width: 0.5rem;
+  border-radius:5px;
+   height:7rem;
+  width:10rem;
+   background-color: white;
+    box-shadow: 1px 1px 30px rgb(195, 195, 196);
+     line-height:3rem;
+}
+.balance:hover{
+  transition-duration:300ms;
+  transform: scale(1.1);
+}
+.transactions{
+  border:1px solid rgb(10, 173, 238);
+  padding:2rem;
+  border-left-width: 0.5rem;
+   border-radius:5px;
+    height:7rem;
+  width:10rem;
+   background-color: white;
+    box-shadow: 1px 1px 30px rgb(195, 195, 196);
+     line-height:3rem;
+}
+.transactions:hover{
+  transition-duration:300ms;
+  transform: scale(1.1);
+}
+.data-boxes{
+  display: flex;
+  justify-content:center;
+  gap:5rem;
+  padding-top:2rem;
+  padding-bottom: 3rem;;
+}
+.in,.ex,.bl,.tr{
+  font-size:2rem;
+  font-weight:800;
+}
+.in{
+  color:green;
+}
+.ex{
+  color:red;
+}
+.main-data{
+  display: flex;
+  gap:3rem;
+  justify-content: start;
+  border:1px solid black;
+  background-color: white;
+  padding: 1rem;
+  border:0;
+  box-shadow:1px 1px 40px rgb(227, 226, 226);
+  width:72rem;
+  padding:2rem;
+  font-size: 1.2rem;
+}
+.wrap{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.over:hover{
+background-color:rgb(211, 190, 240);
+border-radius: 4px;
+padding-right:1rem;
+padding-left: 1rem;
+transition:all ease-out 2s;
+}
+.trans:hover{
+background-color:rgb(207, 179, 245);
+border-radius: 4px;
+padding-right:1rem;
+padding-left: 1rem;
+transition:all ease-out 2s;
+}
+.fl{
+  display: flex;
+  gap:1rem;
+}
+.et{
+  font-size: 1.1rem;
+  background-color: rgb(249, 249, 164);
+  border:0;
+  padding: 0.3rem;
+  box-shadow: 1px 0px 30px rgb(169, 167, 167);
+}
+.del{
+  font-size: 1.1rem;
+  background-color: rgb(246, 7, 7);
+  border:0;
+   padding: 0.3rem;
+    box-shadow: 1px 0px 30px rgb(169, 167, 167);
+}
+.value{
+  display: flex;
+  gap:56rem;
+  border:1px solid black;
+  background-color: white;
+  padding: 1.5rem;
+  border:0;
+   box-shadow:1px 1px 40px rgb(227, 226, 226);
+}
+.value + .value {
+  border-top: 1px solid rgb(214, 213, 213);
+}
+.valuetwo{
+  display: flex;
+  gap:55.5rem;
+  border:1px solid black;
+  background-color: white;
+  padding: 1.5rem;
+  border:0;
+  border-top:0.5px solid rgb(214, 213, 213);
+}
+.valuethree{
+  display: flex;
+  gap:55.4rem;
+  border:1px solid black;
+  background-color: white;
+  padding: 1.5rem;
+  border:0;
+  border-top:0.5px solid rgb(214, 213, 213);
+}
+.valuefour{
+  display: flex;
+  gap:55.1rem;
+  border:1px solid black;
+  background-color: white;
+  padding: 1.5rem;
+  border:0;
+  border-top:0.5px solid rgb(214, 213, 213);
+}
+.valuefive{
+  display: flex;
+  gap:56.5rem;
+  border:1px solid black;
+  background-color: white;
+  padding: 1.5rem;
+  border:0;
+  border-top:0.5px solid rgb(214, 213, 213);
+}
+.settwo{
+  display: flex;
+  align-items: center;
+  gap:2rem;
+}
+.set{
+  font-size: 1.1rem;
+  line-height:1.5em;
+}
+.red{
+  font-size: 1.2rem;
+  font-weight: 800;
+  color:red;
+}
+.green{
+  font-size: 1.2rem;
+  font-weight: 800;
+  color:rgb(8, 156, 8);
+}
+.btn:hover{
+  transition-duration:300ms;
+  transform: scale(1.1);
+}
+.edit-btn:hover{
+  transition-duration:300ms;
+  transform: scale(1.2);
+}
+.del-btn:hover{
+  transition-duration:300ms;
+  transform: scale(1.1);
+}
+.bl{
+  color:rgb(143, 17, 221);
+}
+.tr{
+  color:rgb(8, 137, 189);
+}
+body.dark{
+  background-color: rgb(18, 17, 17);
+}
+body.dark .income{
+  background-color: rgb(18, 18, 18);
+  color:white;
+  box-shadow: 1px 1px 1px black;
+   box-shadow: 1px 1px 40px rgb(41, 41, 41);
+
+}
+body.dark .expense{
+  background-color: rgb(18, 18, 18);
+  color:white;
+  box-shadow: 1px 1px 1px black;
+   box-shadow: 1px 1px 40px rgb(41, 41, 41);
+}
+body.dark .transactions{
+  background-color: rgb(18, 18, 18);
+  color:white;
+  box-shadow: 1px 1px 1px black;
+   box-shadow: 1px 1px 40px rgb(41, 41, 41);
+}
+body.dark .balance{
+  background-color: rgb(18, 18, 18);
+  color:white;
+  box-shadow: 1px 1px 1px black;
+   box-shadow: 1px 1px 40px rgb(41, 41, 41);
+}
+body.dark .main-data{
+  background-color: rgb(54, 53, 53);
+  color:white;
+  box-shadow: 1px 1px 40px rgb(41, 41, 41);
+}
+body.dark .value{
+  background-color: rgb(54, 53, 53);
+  color:white;
+  box-shadow: 1px 1px 1px black;
+}
+body.dark .valuetwo{
+  background-color: rgb(54, 53, 53);
+  color:white;
+  box-shadow: 1px 1px 1px black;
+}
+body.dark .valuethree{
+  background-color: rgb(54, 53, 53);
+  color:white;
+  box-shadow: 1px 1px 1px black;
+}
+body.dark .valuefour{
+  background-color: rgb(54, 53, 53);
+  color:white;
+  box-shadow: 1px 1px 1px black;
+}
+body.dark .valuefive{
+  background-color: rgb(54, 53, 53);
+  color:white;
+  box-shadow: 1px 1px 1px black;
+}
+body.dark .value + .value {
+  border-top: 1px solid rgb(80, 79, 79);
+}
+body.dark .counter{
+  color:white;
+  box-shadow: 1px 1px 40px rgb(65, 65, 65);
+}
+body.light{
+  background-color: whitesmoke;
+}
+
+.nor{
+  font-size:1.5rem;
+  background: none;
+  border:0;
+}
+.same{
+  display: flex;
+  align-items: center;
+  gap:2rem;
+}
+.model{
+  position:fixed;
+  inset:0;
+  background: rgba(0,0,0,0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.model-box{
+  background: white;
+  color:black;
+  padding:25px;
+  border-radius:5px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap:1rem;
+}
+.model-box input{
+  display:block;
+  width:90%;
+  padding:10px;
+  width:10px 0;
+}
+.sup{
+  width:7rem;
+  padding: 0.5rem;
+  border:0;
+  background-color:rgb(252, 55, 55);
+  font-size: 1rem;
+  color: white;
+  font-weight: 700;
+  box-shadow: 1px 1px 20px gray;
+  border-radius:10rem;
+}
+.mar{
+  width:7rem;
+  padding: 0.5rem;
+  border:0;
+  background-color:rgb(11, 164, 11);
+  font-size: 1rem;
+  color: white;
+  font-weight: 700;
+  border-radius:10rem;
+  box-shadow: 1px 1px 20px gray;
+}
+.hu{
+display: flex;
+gap:1rem
+}
+
+/* ===== MOBILE RESPONSIVE — only ≤768px, desktop untouched ===== */
+
+@media (max-width: 768px) {
+
+  /* ---------- Header / Navbar ---------- */
+  .counter {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1.5rem 1rem;
+    text-align: center;
+  }
+  .counter h1 {
+    font-size: 1.8rem;
+  }
+  .same {
+    gap: 1rem;
+    justify-content: center;
+  }
+  .addbtn {
+    padding: 0.7rem 1.5rem;
+    font-size: 0.9rem;
+  }
+
+  /* ---------- Stat Cards ---------- */
+  .data-boxes {
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 1rem 0.5rem;
+    justify-content: center;
+  }
+  .income,
+  .expense,
+  .balance,
+  .transactions {
+    width: calc(50% - 1.5rem);
+    height: auto;
+    min-height: 5rem;
+    padding: 1rem;
+    line-height: 1.8rem;
+    box-sizing: border-box;
+  }
+  .income p:first-child,
+  .expense p:first-child,
+  .balance p:first-child,
+  .transactions p:first-child {
+    font-size: 0.7rem;
+    letter-spacing: 0.03em;
+  }
+  .in, .ex, .bl, .tr {
+    font-size: 1.3rem;
+  }
+
+  /* ---------- Overview / All Transactions tabs ---------- */
+  .main-data {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1rem;
+    gap: 1.5rem;
+    font-size: 1rem;
+  }
+
+  /* ---------- Wrapper ---------- */
+  .wrap {
+    width: 100%;
+    padding: 0 0.5rem;
+    box-sizing: border-box;
+  }
+
+  /* ---------- Transaction list ---------- */
+  .allvalues {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .value,
+  .valuetwo,
+  .valuethree,
+  .valuefour,
+  .valuefive {
+    flex-direction: column;
+    gap: 0.75rem;
+    padding: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .set {
+    font-size: 0.95rem;
+    line-height: 1.4em;
+  }
+
+  .settwo {
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .red, .green {
+    font-size: 1.05rem;
+  }
+
+  .fl {
+    gap: 0.6rem;
+  }
+
+  .et, .del {
+    font-size: 1rem;
+    padding: 0.4rem 0.5rem;
+  }
+
+  /* ---------- Modal ---------- */
+  .model-box {
+    width: calc(100vw - 2rem);
+    max-width: 340px;
+    padding: 1.2rem;
+  }
+  .model-box h2 {
+    font-size: 1.1rem;
+  }
+
+  .hu {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .mar, .sup {
+    flex: 1;
+    min-width: 6rem;
+    text-align: center;
+  }
+}
